@@ -10,18 +10,23 @@ namespace miPrimerProyecto
     {
         static void Main(string[] args)
         {
-            //Ejercicio de sumar dos numeros introducidos por el usuario
-            int num1 = 0, num2 = 0, respuesta = 0;
-            Console.Write("Num 1: ");
-            num1 = int.Parse(Console.ReadLine());
+            //clasificar la edad introducida por el usuario.
+            int edad = 0;
 
-            Console.Write("Num 2: ");
-            num2 = int.Parse(Console.ReadLine());
+            Console.Write("Dime tu edad: ");
+            edad = int.Parse(Console.ReadLine());
 
-            respuesta = num1 + num2;
-            Console.WriteLine("La suma es: "+ respuesta);//WriteLine permite imprimir en consola una cadena
-                                                         // y da un salto de linea
-            
+            if( edad<=2 ){
+                Console.WriteLine("Eres un bebe");
+            }else if( edad<12){
+                Console.WriteLine("Eres un niño");
+            }else if( edad<18){
+                Console.WriteLine("Eres un adolescente");
+            }else if( edad<=65){
+                Console.WriteLine("Eres un adulto");
+            }else {
+                Console.WriteLine("Larga vida");
+            }
             //Me permite hacer una pausa
             Console.ReadKey();
         }
