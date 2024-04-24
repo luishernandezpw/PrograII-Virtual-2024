@@ -5,7 +5,9 @@ namespace interfaz {
         }
 
         private void btnSaludo_Click(object sender, EventArgs e) {
-            MessageBox.Show("hola, que tal, chicos de Progra II", "Saludo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            String nombre = txtNombre.Text;
+
+            MessageBox.Show("Hola "+nombre, "Saludo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
