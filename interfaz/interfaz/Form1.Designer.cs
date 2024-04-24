@@ -23,18 +23,33 @@
         ///  the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            btnSaludo = new Button();
             SuspendLayout();
+            // 
+            // btnSaludo
+            // 
+            btnSaludo.Font = new Font("Arial", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSaludo.Location = new Point(66, 65);
+            btnSaludo.Name = "btnSaludo";
+            btnSaludo.Size = new Size(173, 45);
+            btnSaludo.TabIndex = 0;
+            btnSaludo.Text = "Saludo";
+            btnSaludo.UseVisualStyleBackColor = true;
+            btnSaludo.Click += btnSaludo_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(594, 403);
+            ClientSize = new Size(490, 301);
+            Controls.Add(btnSaludo);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Saludo";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button btnSaludo;
     }
 }
