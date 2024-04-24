@@ -6,20 +6,29 @@ namespace interfaz {
 
         private void btnSaludo_Click(object sender, EventArgs e) {
             try {
-                double num1 = double.Parse(txtNum1.Text);
-                double num2 = double.Parse(txtNum2.Text);
-                double respuesta = 0;
+                String unidadesLetras = "", decenasLetras = "", respuesta = "";
 
-                if (optSuma.Checked) {
-                    respuesta = num1 + num2;
-                } else if (optResta.Checked) {
-                    respuesta = num1 - num2;
-                } else if (optMultiplicacion.Checked) {
-                    respuesta = num1 * num2;
-                } else if (optDivision.Checked) {
-                    respuesta = num1 / num2;
+                String[] unidades = {"CERO", "UNO", "DOS", "TRES", "CUATRO", "CINCO", "SEIS", "SIETE", "OCHO", "NUEVE"};
+                String[] especiales = {"", "ONCE", "DOCE", "TRECE", "CATORCE", "QUINCE", "DIECISEIS", "DIECISIETE", "DIECIOCHO", "DIECINUEVE","",
+                    "VEINTIUNO", "VEINTIDOS", "VEINTITRES", "VEINTICUATRO", "VEINTICINCO", "VEINTISEIS", "VEINTISIETE", "VEINTIOCHO", "VEINTINUEVE"};
+                String[] decenas = {"", "DIEZ", "VEINTE", "TREINTA", "CUARENTA", "CINCUENTA", "SESENTA", "SETENTA", "OCHENTA", "NOVENTA"};
+
+                String num = txtNum.Text.Trim();
+                
+                if (num.Length <= 1) {
+                    respuesta = unidades[ int.Parse(num) ];
                 }
+                if(int.Parse(num) > 10 && int.Parse(num) < 30) {
+                    respuesta = especiales[ int.Parse(num)-10 ];
+                }
+                if( num.Length<=2 && int.Parse(num)>=30) {
+                    int decena = int.Parse(num.Substring(0,1));
+                    int uni = int.Parse(num.Substring(1, 1));
 
+                    unidadesLetras = unidades[uni];
+                    decenasLetras = decenas[decena];
+                    respuesta = decenasLetras + " y " + unidadesLetras;
+                }
                 lblRespuesta.Text = "Respuesta: " + respuesta;
             }catch(Exception ex) {
                 MessageBox.Show("Error, por favor ingreso los valores solicitados", "Calculadora", MessageBoxButtons.OK, MessageBoxIcon.Error);
