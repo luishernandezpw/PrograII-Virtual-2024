@@ -19,6 +19,7 @@ namespace interfaz {
                 } else if (optDivision.Checked) {
                     respuesta = num1 / num2;
                 }
+
                 lblRespuesta.Text = "Respuesta: " + respuesta;
             }catch(Exception ex) {
                 MessageBox.Show("Error, por favor ingreso los valores solicitados", "Calculadora", MessageBoxButtons.OK, MessageBoxIcon.Error);

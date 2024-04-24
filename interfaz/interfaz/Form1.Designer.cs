@@ -34,6 +34,9 @@
             optResta = new RadioButton();
             optSuma = new RadioButton();
             lblRespuesta = new Label();
+            optPorcentaje = new RadioButton();
+            optRaiz = new RadioButton();
+            optExponente = new RadioButton();
             rgpOpciones.SuspendLayout();
             SuspendLayout();
             // 
@@ -84,13 +87,16 @@
             // 
             // rgpOpciones
             // 
+            rgpOpciones.Controls.Add(optExponente);
+            rgpOpciones.Controls.Add(optRaiz);
+            rgpOpciones.Controls.Add(optPorcentaje);
             rgpOpciones.Controls.Add(optDivision);
             rgpOpciones.Controls.Add(optMultiplicacion);
             rgpOpciones.Controls.Add(optResta);
             rgpOpciones.Controls.Add(optSuma);
-            rgpOpciones.Location = new Point(281, 44);
+            rgpOpciones.Location = new Point(285, 34);
             rgpOpciones.Name = "rgpOpciones";
-            rgpOpciones.Size = new Size(161, 143);
+            rgpOpciones.Size = new Size(164, 207);
             rgpOpciones.TabIndex = 5;
             rgpOpciones.TabStop = false;
             rgpOpciones.Text = "Opciones";
@@ -147,6 +153,36 @@
             lblRespuesta.TabIndex = 6;
             lblRespuesta.Text = "Respuesta: ?";
             // 
+            // optPorcentaje
+            // 
+            optPorcentaje.AutoSize = true;
+            optPorcentaje.Location = new Point(18, 125);
+            optPorcentaje.Name = "optPorcentaje";
+            optPorcentaje.Size = new Size(95, 19);
+            optPorcentaje.TabIndex = 4;
+            optPorcentaje.Text = "PORCENTAJE";
+            optPorcentaje.UseVisualStyleBackColor = true;
+            // 
+            // optRaiz
+            // 
+            optRaiz.AutoSize = true;
+            optRaiz.Location = new Point(18, 151);
+            optRaiz.Name = "optRaiz";
+            optRaiz.Size = new Size(50, 19);
+            optRaiz.TabIndex = 5;
+            optRaiz.Text = "RAIZ";
+            optRaiz.UseVisualStyleBackColor = true;
+            // 
+            // optExponente
+            // 
+            optExponente.AutoSize = true;
+            optExponente.Location = new Point(18, 182);
+            optExponente.Name = "optExponente";
+            optExponente.Size = new Size(126, 19);
+            optExponente.TabIndex = 6;
+            optExponente.Text = "EXPONENCIACION";
+            optExponente.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -180,5 +216,8 @@
         private RadioButton optResta;
         private RadioButton optSuma;
         private Label lblRespuesta;
+        private RadioButton optRaiz;
+        private RadioButton optPorcentaje;
+        private RadioButton optExponente;
     }
 }
