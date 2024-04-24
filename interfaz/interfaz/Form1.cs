@@ -5,9 +5,10 @@ namespace interfaz {
         }
 
         private void btnSaludo_Click(object sender, EventArgs e) {
-            String nombre = txtNombre.Text;
-
-            MessageBox.Show("Hola "+nombre, "Saludo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            double num1 = double.Parse(txtNum1.Text);
+            double num2 = double.Parse(txtNum2.Text);
+            double respuesta = num1 + num2;
+            MessageBox.Show("Respuesta: "+respuesta, "Calculadora", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
