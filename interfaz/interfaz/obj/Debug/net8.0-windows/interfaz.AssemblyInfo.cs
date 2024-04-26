@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("interfaz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49937a81735b0e24cb2230000a52b5d9f2fb691d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+252bf362ea0429957e4f52d846b63e718b3037a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("interfaz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("interfaz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

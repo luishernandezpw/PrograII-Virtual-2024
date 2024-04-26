@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = interfaz
-build_property.ProjectDir = C:\Users\Luis Hernandez\Desktop\PrograII-Virtual-2024\interfaz\interfaz\
+build_property.ProjectDir = C:\Users\Luis Hernandez\Source\Repos\PrograII-Virtual-2024\interfaz\interfaz\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
