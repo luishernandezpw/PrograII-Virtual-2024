@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
+              "RelativeDocumentMoniker": "academica\\Form1.cs",
+              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
+              "RelativeToolTip": "academica\\Form1.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwF4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:21:06.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Conexion.cs",
+              "RelativeDocumentMoniker": "academica\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Conexion.cs",
+              "RelativeToolTip": "academica\\Conexion.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T02:12:43.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
+              "RelativeDocumentMoniker": "academica\\Form1.cs",
+              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "academica\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T01:51:51.748Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
