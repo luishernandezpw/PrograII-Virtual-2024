@@ -48,6 +48,7 @@ namespace academica {
         }
         private void alumnos_Load(object sender, EventArgs e) {
             actualizarDsAlumnos();
+            grdDatosAlumno.DataSource = dt.DefaultView;
         }
 
         private void btnSiguienteAlumno_Click(object sender, EventArgs e) {
@@ -123,6 +124,46 @@ namespace academica {
             grbDatosAlumnos.Enabled = !estado;
             grbNavegacionAlumno.Enabled = estado;
             btnEliminarAlumno.Enabled=estado;
+        }
+
+        private void btnEliminarAlumno_Click(object sender, EventArgs e) {
+            if( MessageBox.Show("Esta Segurod de eliminar: "+ txtNombreAlumno.Text, "Eliminar Alumno", MessageBoxButtons.YesNo, MessageBoxIcon.Question)==DialogResult.Yes) {
+                String resp = objConexion.administrarAlumnos(new string[] {
+                    dt.Rows[posicion].ItemArray[0].ToString()
+                }, "eliminar");
+                if( resp!="1") {
+                    MessageBox.Show("Error al eliminar. "+ resp, "Eliminando Alumnos", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                } else {
+                    posicion = 0;
+                    actualizarDsAlumnos();
+                }
+            }
+            
+        }
+        private void txtBuscarAlumno_TextChanged(object sender, EventArgs e) {
+            filtrarDatosAlumnos(txtBuscarAlumno.Text);
+        }
+        private void filtrarDatosAlumnos(String valor) {
+            BindingSource bs = new BindingSource();
+            bs.DataSource = grdDatosAlumno.DataSource;
+            bs.Filter = "codigo like '%"+ valor +"%' OR nombre like '%"+ valor +"%' OR dui like '%"+ valor +"%' ";
+            grdDatosAlumno.DataSource = bs;
+        }
+        private void seleccionarAlumno() {
+            int _idAlumno = int.Parse(grdDatosAlumno.CurrentRow.Cells["idAlumno"].Value.ToString());
+            posicion = dt.Rows.IndexOf(dt.Rows.Find(_idAlumno));
+            mostrarDatosAlumnos();
+        }
+
+        private void grdDatosAlumno_CellClick(object sender, DataGridViewCellEventArgs e) {
+            seleccionarAlumno();
+        }
+
+        private void txtBuscarAlumno_KeyUp(object sender, KeyEventArgs e) {
+            filtrarDatosAlumnos(txtBuscarAlumno.Text);
+            if( e.KeyCode==Keys.Enter) {
+                seleccionarAlumno();
+            }
         }
     }
 }

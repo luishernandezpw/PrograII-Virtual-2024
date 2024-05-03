@@ -26,6 +26,10 @@ namespace academica {
             miAdaptador.SelectCommand = miComando;
             miAdaptador.Fill(ds, "alumnos");
 
+            miComando.CommandText = "select * from materias";
+            miAdaptador.SelectCommand = miComando;
+            miAdaptador.Fill(ds, "materias");
+
             return ds;
         }
         public String administrarAlumnos(String[] alumnos, String accion) {
@@ -39,6 +43,20 @@ namespace academica {
                     "WHERE idAlumno='"+ alumnos[0] +"'";
             }else if (accion == "eliminar") {
                 sql = "DELETE alumnos WHERE idAlumno='" + alumnos[0] + "'";
+            }
+            return ejecutarSql(sql);
+        }
+        public String administrarMaterias(String[] materias, String accion) {
+            String sql = "";
+            if (accion == "nuevo") {
+                sql = "INSERT INTO materias (codigo,nombre,uv) VALUES('" + materias[1] + "'," +
+                    "'" + materias[2] + "', '" + materias[3] + "')";
+            } else if (accion == "modificar") {
+                sql = "UPDATE materias SET codigo='" + materias[1] + "'," +
+                    "nombre='" + materias[2] + "', uv='" + materias[3] + "'" +
+                    "WHERE idMateria='" + materias[0] + "'";
+            } else if (accion == "eliminar") {
+                sql = "DELETE materias WHERE idMateria='" + materias[0] + "'";
             }
             return ejecutarSql(sql);
         }
