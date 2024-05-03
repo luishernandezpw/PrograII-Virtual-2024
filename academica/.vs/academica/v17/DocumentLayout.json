@@ -3,39 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\materias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\academica\\academica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD457194-CE0D-4B0B-A879-F3955619109B}|academica\\academica.csproj|solutionrelative:academica\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LUIS_HERNANDEZ_DESKTOP_PROGRAII_VIRTUAL_2024_ACADEMICA_ACADEMICA_DB_ACADEMICO.MDF/True/SqlTable/dbo.alumnos.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{07612678-8BF0-4592-A401-A223CC273F92}|..\\holaMundo\\holaMundo\\holaMundo.csproj|c:\\users\\luis hernandez\\desktop\\prograii-virtual-2024\\holamundo\\holamundo\\principal.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -45,118 +13,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Program.cs",
-              "RelativeDocumentMoniker": "academica\\Program.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Program.cs",
-              "RelativeToolTip": "academica\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:29:58.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "principal.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\principal.cs",
-              "RelativeDocumentMoniker": "academica\\principal.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\principal.cs",
-              "RelativeToolTip": "academica\\principal.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAawB4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:29:30.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "principal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\principal.cs",
-              "RelativeDocumentMoniker": "academica\\principal.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\principal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "academica\\principal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:29:02.505Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "materias.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\materias.cs",
-              "RelativeDocumentMoniker": "academica\\materias.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\materias.cs",
-              "RelativeToolTip": "academica\\materias.cs",
-              "ViewState": "AQIAAH0AAAAAAAAAAAAmwJMAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:16:06.28Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
-              "RelativeDocumentMoniker": "academica\\Form1.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
-              "RelativeToolTip": "academica\\Form1.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAmwIgAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:21:06.964Z",
+              "Title": "principal.html",
+              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\holaMundo\\holaMundo\\principal.html",
+              "RelativeDocumentMoniker": "..\\holaMundo\\holaMundo\\principal.html",
+              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\holaMundo\\holaMundo\\principal.html",
+              "RelativeToolTip": "..\\holaMundo\\holaMundo\\principal.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-03T02:47:58.714Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "materias.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\materias.cs",
-              "RelativeDocumentMoniker": "academica\\materias.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\materias.cs [Dise\u00F1o]",
-              "RelativeToolTip": "academica\\materias.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T02:04:39.236Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "dbo.alumnos [Datos]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_LUIS_HERNANDEZ_DESKTOP_PROGRAII_VIRTUAL_2024_ACADEMICA_ACADEMICA_DB_ACADEMICO.MDF/True/SqlTable/dbo.alumnos.sql",
-              "ToolTip": "dbo.alumnos [Datos]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-03T01:39:37.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Conexion.cs",
-              "RelativeDocumentMoniker": "academica\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Conexion.cs",
-              "RelativeToolTip": "academica\\Conexion.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAD0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T02:12:43.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs",
-              "RelativeDocumentMoniker": "academica\\Form1.cs",
-              "ToolTip": "C:\\Users\\Luis Hernandez\\Desktop\\PrograII-Virtual-2024\\academica\\academica\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "academica\\Form1.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T01:51:51.748Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

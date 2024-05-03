@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <h1>Hola Mundo, bienvenidos chicos de Progra II</h1>
+    <form id="frmCalculadora" >
+        Num 1: <input type="text" placeholder="num1" id="txtNum1" /> + 
+        Num 2: <input type="text" placeholder="num2" id="txtNum2" />
+        Respuesta: <span id="spnResultado"></span>
+        <input type="submit" id="btnProcesar" value="Procesar" />
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", e => {
+            frmCalculadora.addEventListener("submit", event => {
+                event.preventDefault();
+
+                let num1 = txtNum1.value,
+                    num2 = txtNum2.value,
+                    respuesta = Number(num1) + Number(num2);
+                spnResultado.innerHTML = respuesta.toFixed(2);
+            }); 
+        });
+    </script>
+</body>
+</html>
