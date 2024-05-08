@@ -2,11 +2,14 @@ using System;
 
 public class holaMundo {
     public static void Main(string[] args){
-        Console.Write("Tabla de Multiplicar: ");
-        int ntabla = int.Parse(Console.ReadLine());
-
-        for(int i=1; i<=10; i++){
-            Console.WriteLine("{0}X{1}={2}", ntabla, i, ntabla*i);
+        Console.WriteLine("Calcular la Edad Promedio");
+        int suma=0;
+        for(int i=1; i<=15; i++){
+            Console.Write("Edad {0}: ", i);
+            int edad = int.Parse(Console.ReadLine());
+            suma += edad;
         }
+        double edadProm = suma/15;
+        Console.WriteLine("Edad Promedio: {0}", edadProm);
     }
 }
