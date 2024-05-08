@@ -2,6 +2,7 @@ using System;
 
 public class holaMundo{
     public static void Main(string[] args){
+        
         Console.Write("Num 1: ");
         double num1 = double.Parse(Console.ReadLine());
         
